@@ -69,6 +69,8 @@ static const struct arg args[] = {
 	{ ram_perc, " %s%% | ", NULL },
 	{ run_command, "%s%% | ", "get_system_info -b" },
 	{ run_command, "%s%% | ", "get_system_info -v" },
+	{ wifi_perc, " %s%% | ", "wlan0" },
+	{ disk_free, " %s | ", "/" },
 	{ datetime, " %s | ", "%R" },
 	{ datetime, " %s ", "%a %d %b" },
 };
